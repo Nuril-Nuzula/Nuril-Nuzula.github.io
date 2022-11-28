@@ -816,9 +816,16 @@ nav{
         margin-left: 0rem;
     }
 }
+
+
+/* ---------- END HAl 4 ---------- */
+
+/* ---------- Footer ---------- */
 .footer{
     background-color: #222222;
-    text-align: center;
+    text-align: end;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 /* .garis{
     background-color:#222222;
@@ -831,5 +838,11 @@ nav{
     font-weight: 600;
     text-align: center;
 } */
-
-/* ---------- END HAl 4 ---------- */
+.medsos{
+    margin-right: 4rem;
+}
+.foot_uil{
+    font-size: 25px;
+    margin-right: 1rem;
+}
+/* ---------- END Footer ---------- */
