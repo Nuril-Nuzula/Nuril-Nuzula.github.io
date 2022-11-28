@@ -23,12 +23,6 @@
 html{
     scroll-behavior: smooth;
 }
-
-/* img{
-    width: 100%;
-    display: block;
-    object-fit: cover;
-} */
 .container{
     width: 80%;
     margin: 0 auto;
@@ -54,14 +48,12 @@ nav{
     width: 100%;
     z-index: 99;
 }
-
 .navbar-list{
     background-color:#222222;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 18px 0;
-    
 }
 .navbar-item{
     margin: 0 20px;
@@ -87,7 +79,6 @@ nav{
     margin-left: 20px;
     cursor: pointer;
 }
-
 @media screen and (max-width:912px) {
     .navbar-list{
         flex-wrap: wrap;
@@ -119,9 +110,7 @@ nav{
     .toggle{
         width: 25px;
     }
-    
 }
-
 @media screen and (max-width:420px) {
     .logo{
         font-size: 1.5rem;
@@ -133,12 +122,6 @@ nav{
 /* ---------- end navbar ---------- */
 
 /* ---------- Hal 1 ---------- */
-
-/* .atas{
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-end;
-} */
 .jurusan{
     color: #d3d3d3;
     display: flex;
@@ -148,12 +131,6 @@ nav{
     margin-left: 30px;
     letter-spacing: 15px;
 }
-/* .minitext{
-    font-size: 15;
-    color: #d3d3d3;
-    letter-spacing:15px;
-    justify-content: space-between;
-} */
 .port{
     margin-top: 19rem;
     font-size: 12rem;
@@ -232,7 +209,6 @@ nav{
         margin-bottom: 5rem;
     }
 }
-
 /* ---------- End Hal 1 ---------- */
 
 /* ---------- Hal 2 ---------- */
@@ -243,7 +219,6 @@ nav{
     justify-content: center;
     align-content: center;
 }
-
 .profile__container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -253,7 +228,6 @@ nav{
     align-items: center;
     z-index: 99;
 }
-
 .nama{
     margin-top: -8rem;
     margin-left: 30px;
@@ -298,7 +272,6 @@ nav{
     padding: 30px;
     height: 46rem;
     width:30rem;
-    /* display: grid; */
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -357,7 +330,6 @@ nav{
     font-size: 12rem;
     margin-left: 30px;
 }
-
 @media screen and (max-width : 420px) {
     .profile__container{
         display: grid;
@@ -369,7 +341,6 @@ nav{
         z-index: 99;
     }
     .nama{
-        /* margin-left: 80px; */
         font-family: 'bebas neue';
         color: #d3d3d3;
         font-size: 4rem;
@@ -393,13 +364,10 @@ nav{
     }
     .mee{
         margin-top: -118px;
-        /* margin-left: 80px; */
         height: 205px;
         width: 205px;
     }
     .desk__me{
-        /* margin-left: 80px; */
-        /* letter-spacing: 1px; */
         font-family: 'montserrat';
         margin-top: -10px;
         font-size: 8px;
@@ -412,12 +380,10 @@ nav{
         justify-content: center;
         align-content: center;
     }
-
     .profile__right{
         margin-top: -13rem;
         margin-left: 1.7rem;
         background-color: #222222;
-        /* padding: 20px; */
         height: 22rem;
         width:205px;
         display: flex;
@@ -482,7 +448,6 @@ nav{
         margin-left: 10px;
     }
 }
-
 /* ---------- End Hal 2 ---------- */
 
 /* ---------- HAl 3 ---------- */
@@ -492,7 +457,6 @@ nav{
     margin-top: 20rem;
 }
 .sertifikat{
-    /* background-color: #5cb85f; */
     padding: 2rem;
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
@@ -543,7 +507,6 @@ nav{
 /* ---------- END HAl 3 ---------- */
 
 /* ---------- HAl 4 ---------- */
-
 .header__hal4{
     height: 90px;
     margin-left: 30px;
@@ -659,7 +622,6 @@ nav{
     margin-left: -27rem;
     margin-bottom: 1.6rem;
 }
-
 @media screen and (max-width : 420px) {
     .head_project{
         display: grid;
@@ -816,28 +778,14 @@ nav{
         margin-left: 0rem;
     }
 }
-
-
 /* ---------- END HAl 4 ---------- */
 
 /* ---------- Footer ---------- */
 .footer{
     background-color: #222222;
-
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-/* .garis{
-    background-color:#222222;
-
-}
-.footer{
-    background-color: #222222;
-    padding: 10px;
-    font-size:large;
-    font-weight: 600;
-    text-align: center;
-} */
 .medsos{
     margin-right: 4rem;
     margin-bottom: -1.5rem;
