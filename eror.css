@@ -1,0 +1,17 @@
+body{
+    background-color: #111;
+}
+.eror{
+    text-align: center;
+    font-size: 8rem;
+    color: aliceblue;
+    margin-top: 5rem;
+}
+.uil{
+    color: aliceblue;
+    font-size: 1.3rem;
+    margin-left: 1.7rem;
+}
+.back{
+    margin-top: 2rem;
+}
