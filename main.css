@@ -844,5 +844,11 @@ nav{
 .foot_uil{
     font-size: 25px;
     margin-right: 1rem;
+
+    background-color: #111;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: large;
+
 }
 /* ---------- END Footer ---------- */
