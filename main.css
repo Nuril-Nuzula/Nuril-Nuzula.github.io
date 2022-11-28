@@ -823,7 +823,7 @@ nav{
 /* ---------- Footer ---------- */
 .footer{
     background-color: #222222;
-    text-align: end;
+
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -840,15 +840,20 @@ nav{
 } */
 .medsos{
     margin-right: 4rem;
+    margin-bottom: -1.5rem;
+    text-align: end;
 }
 .foot_uil{
-    font-size: 25px;
+    font-size: 23px;
     margin-right: 1rem;
-
     background-color: #111;
     padding: 0.5rem;
     border-radius: 50%;
-    font-size: large;
-
+}
+.copyright{
+    text-align: start;
+    font-family: 'montserrat';
+    margin-left: 4rem;
+    color: #d3d3d3;
 }
 /* ---------- END Footer ---------- */
