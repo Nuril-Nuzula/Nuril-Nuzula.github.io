@@ -126,13 +126,13 @@ nav{
     color: #d3d3d3;
     display: flex;
     justify-content: flex-start;
-    margin-top:1rem;
+    margin-top:-10px;
     font-size: 15px;
     margin-left: 30px;
     letter-spacing: 15px;
 }
 .port{
-    margin-top: 19rem;
+    margin-top: 12rem;
     font-size: 12rem;
     letter-spacing:65px;
     margin-left: 30px;
@@ -149,7 +149,7 @@ nav{
 }
 .soft{
     font-family: 'montserrat';
-    margin-top: -100px;
+    margin-top: -10rem;
     color: #222222;
     text-align: end;
     font-size: 8rem;
@@ -430,7 +430,7 @@ nav{
         font-size: 20px;
     }
     .an{
-        margin-left: 19rem;
+        margin-left: 15rem;
         letter-spacing:18px;
         margin-top: 25rem;
         margin-bottom: -55rem;
@@ -526,6 +526,9 @@ nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.artikel{
+    margin-left: -17rem;
+}
 .web_img{
     width: 25rem;
 }
@@ -550,7 +553,9 @@ nav{
     font-family: 'bebas neue';
     letter-spacing: 5px;
     font-size: 2rem;
-
+}
+.weather_artikel{
+    margin-left: -17rem;
 }
 .weather__app{
     margin-top: 4rem;
@@ -558,6 +563,7 @@ nav{
     margin-left: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start;
 }
 .weather_img{
     width: 25rem;
@@ -565,11 +571,14 @@ nav{
 .weather_penjelasan{
     color:#d3d3d3;
     font-family: 'montserrat';
-    margin-top: 1rem;
-    margin-right: 20rem;
+    margin-top: 2rem;
+    margin-right: 6rem;
     font-size: 1.3rem;
     letter-spacing: 1px;
 
+}
+.alarm_artikel{
+    margin-left: -17rem;
 }
 .head_alarm{
     font-family: 'bebas neue';
@@ -592,11 +601,13 @@ nav{
 .alarm_penjelasan{
     color:#d3d3d3;
     font-family: 'montserrat';
-    margin-top: 1rem;
-    margin-right: 20rem;
+    margin-top: 2rem;
+    margin-right: 6rem;
     font-size: 1.3rem;
     letter-spacing: 1px;
-
+}
+.recipe_artikel{
+    margin-left: -17rem;
 }
 .head_recipe{
     font-family: 'bebas neue';
@@ -620,12 +631,10 @@ nav{
 .recipe_penjelasan{
     color:#d3d3d3;
     font-family: 'montserrat';
-    margin-top: 1rem;
-    margin-right: 20rem;
+    margin-top: 2rem;
+    margin-right: 6rem;
     font-size: 1.3rem;
     letter-spacing: 1px;
-
-    margin-bottom: 1.6rem;
 }
 @media screen and (max-width : 420px) {
     .head_project{
@@ -808,5 +817,25 @@ nav{
     font-family: 'montserrat';
     margin-left: 4rem;
     color: #d3d3d3;
+}
+@media screen and (max-width : 420px) {
+    .footer{
+
+    }
+    .medsos{
+        margin-right: 0px;
+        margin-left: 1.2rem;
+        text-align: center;
+    }
+    .foot_uil{
+
+    }
+    .copyright{
+        margin-top: 4rem;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: -1rem;
+    }
 }
 /* ---------- END Footer ---------- */
