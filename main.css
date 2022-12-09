@@ -451,10 +451,14 @@ nav{
 /* ---------- End Hal 2 ---------- */
 
 /* ---------- HAl 3 ---------- */
+.container__headserti{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
 .header__sertifikat{
     height: 90px;
-    margin-left: 30px;
-    margin-top: 20rem;
 }
 .sertifikat{
     padding: 2rem;
@@ -507,9 +511,13 @@ nav{
 /* ---------- END HAl 3 ---------- */
 
 /* ---------- HAl 4 ---------- */
+.head_project{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .header__hal4{
     height: 90px;
-    margin-left: 30px;
 }
 .school__web{
     margin-top: 3rem;
@@ -519,11 +527,9 @@ nav{
     grid-template-columns: repeat(2, 1fr);
 }
 .web_img{
-    height: 800px;
-    width: 1400px;
+    width: 25rem;
 }
 .head_web{
-    margin-left: 2rem;
     font-family: 'bebas neue';
     letter-spacing: 5px;
     font-size: 2rem;
@@ -531,7 +537,6 @@ nav{
 .penjelasan{
     color:#d3d3d3;
     font-family: 'montserrat';
-    margin-left: 2rem;
     margin-top: 2rem;
     margin-right: 6rem;
     font-size: 1.3rem;
@@ -545,7 +550,7 @@ nav{
     font-family: 'bebas neue';
     letter-spacing: 5px;
     font-size: 2rem;
-    margin-left: -27rem;
+
 }
 .weather__app{
     margin-top: 4rem;
@@ -564,13 +569,13 @@ nav{
     margin-right: 20rem;
     font-size: 1.3rem;
     letter-spacing: 1px;
-    margin-left: -27rem;
+
 }
 .head_alarm{
     font-family: 'bebas neue';
     letter-spacing: 5px;
     font-size: 2rem;
-    margin-left: -27rem;
+
 }
 .alarm__app{
     margin-top: 4rem;
@@ -591,13 +596,13 @@ nav{
     margin-right: 20rem;
     font-size: 1.3rem;
     letter-spacing: 1px;
-    margin-left: -27rem;
+
 }
 .head_recipe{
     font-family: 'bebas neue';
     letter-spacing: 5px;
     font-size: 2rem;
-    margin-left: -27rem;
+
 }
 .recipe__app{
     margin-top: 4rem;
@@ -619,7 +624,7 @@ nav{
     margin-right: 20rem;
     font-size: 1.3rem;
     letter-spacing: 1px;
-    margin-left: -27rem;
+
     margin-bottom: 1.6rem;
 }
 @media screen and (max-width : 420px) {
