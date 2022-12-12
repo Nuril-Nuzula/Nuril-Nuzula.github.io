@@ -1,0 +1,283 @@
+/* ---------- HAl 4 ---------- */
+.head_project{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header__hal4{
+    height: 90px;
+}
+.school__web{
+    margin-top: 3rem;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.artikel{
+    margin-left: -16rem;
+}
+.web_img{
+    width: 25rem;
+}
+.head_web{
+    font-family: 'bebas neue';
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.penjelasan{
+    color:#d3d3d3;
+    font-family: 'montserrat';
+    margin-top: 2rem;
+    margin-right: 6rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+#scroll-project{
+    margin-top: 2rem;
+    margin-bottom: 6rem ;
+}
+.head_weather{
+    font-family: 'bebas neue';
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.weather_artikel{
+    margin-left: -16rem;
+}
+.weather__app{
+    margin-top: 4rem;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start;
+}
+.weather_img{
+    width: 25rem;
+}
+.weather_penjelasan{
+    color:#d3d3d3;
+    font-family: 'montserrat';
+    margin-top: 2rem;
+    margin-right: 6rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+
+}
+.alarm_artikel{
+    margin-left: -16rem;
+}
+.head_alarm{
+    font-family: 'bebas neue';
+    letter-spacing: 5px;
+    font-size: 2rem;
+
+}
+.alarm__app{
+    margin-top: 4rem;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.alarm_img{
+    margin-left: 2rem;
+    width: 19rem;
+    height: 26rem;
+}
+.alarm_penjelasan{
+    color:#d3d3d3;
+    font-family: 'montserrat';
+    margin-top: 2rem;
+    margin-right: 6rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.recipe_artikel{
+    margin-left: -16rem;
+}
+.head_recipe{
+    font-family: 'bebas neue';
+    letter-spacing: 5px;
+    font-size: 2rem;
+
+}
+.recipe__app{
+    margin-top: 4rem;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.recipe_img{
+    margin-left: 3rem;
+    width: 17rem;
+    height: 25rem;
+    margin-bottom: 1.6rem;
+}
+.recipe_penjelasan{
+    color:#d3d3d3;
+    font-family: 'montserrat';
+    margin-top: 2rem;
+    margin-right: 6rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+@media screen and (max-width : 420px) {
+    .head_project{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__hal4{
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+        height: 2.5rem;
+        justify-content: center;
+    }
+    .web_img{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        height: 200px;
+        width: 352px;
+    }
+    .school__web{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+    .head_web{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 1.5rem;
+    }
+    .penjelasan{
+        text-align:justify;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .artikel{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .container_school{
+        display: grid;
+    }
+    -------------------------------------------
+    .weather_img{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        height: 170px;
+        width: 500px;
+    }
+    .weather_img{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        height: 250px;
+        width: 350px;
+    }
+    .weather__app{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+    .head_weather{}
+    .head_weather{
+        text-align:center;
+        font-size: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 1.5rem;
+    }
+    .weather_penjelasan{
+        text-align:justify;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .weather_artikel{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    -------------------------------------------
+    .alarm_img{
+    }
+    .alarm_img{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        height: 435px;
+        width: 330px;
+        margin-left: 0.6rem;
+    }
+    .alarm__app{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+    .head_alarm{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .alarm_penjelasan{
+        text-align:justify;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .alarm_artikel{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    -------------------------------------------
+    .recipe_img{}
+    .recipe_img{
+        margin-right: 0rem;
+        height: 435px;
+        width: 330px;
+        margin-left: 0.6rem;
+        margin-bottom: 0rem;
+    }
+    .recipe__app{
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+    }
+    .head_recipe{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .recipe_penjelasan{
+        text-align:justify;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .recipe_artikel{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+}
+/* ---------- END HAl 4 ---------- */

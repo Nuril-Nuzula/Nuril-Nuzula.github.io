@@ -1,0 +1,59 @@
+/* ---------- HAl 3 ---------- */
+.container__headserti{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
+}
+.header__sertifikat{
+    height: 90px;
+}
+.sertifikat{
+    padding: 2rem;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+}
+.gambar__sertifikat{
+    display: grid;
+    margin: 0 10rem;
+    margin-top: 2rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.sertfikat__title{
+    font-size: 1.1rem;
+    color: #d3d3d3;
+    font-family: 'bebas neue';
+}#scroll-certificate{
+    margin-bottom: -18rem;
+    margin-top: 20rem;
+}
+.sertifikat:hover{
+    transform: scale(1.1);
+    transition: 600ms;
+}
+.img__certi{
+    height: 200px;
+}
+@media screen and (max-width : 420px) {
+
+    .gambar__sertifikat{
+        display: grid;
+        margin: 0 10rem;
+        margin-top: 2rem;
+        row-gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .img__certi{
+        margin-bottom: 1rem;
+        height: 100px;
+    }
+    .header__sertifikat{
+        height: 70px;
+    }
+}
+/* ---------- END HAl 3 ---------- */
