@@ -1,3 +1,10 @@
+:root{
+    --color-primary :#5cb85f;
+    --color-bg1 :#e5e5e5;
+    --color-bg2 :#f1f3ff;
+    --transition : all 500ms ease;
+}
+
 /* ---------- HAl 4 ---------- */
 .head_project{
     display: grid;
@@ -37,9 +44,31 @@
 }
 .teknologi{
     text-align: center;
+    margin-bottom: 3rem;
 }
 .text_technology{
     margin-bottom: 1rem;
+}
+.repo{
+    text-align: center;
+}
+.goto_repo{
+    background-color: white;
+    color: #222222;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.goto_repo:hover{
+    background-color: #111;
+    color: aliceblue;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
 }
 
 
