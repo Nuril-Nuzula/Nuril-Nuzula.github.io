@@ -29,10 +29,21 @@
     color:#d3d3d3;
     font-family: 'montserrat';
     margin-top: 2rem;
-    margin-right: 6rem;
+    margin-right: 5rem;
     font-size: 1.3rem;
     letter-spacing: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+.teknologi{
+    text-align: center;
+}
+.text_technology{
+    margin-bottom: 1rem;
+}
+
+
+
 #scroll-project{
     margin-top: 2rem;
     margin-bottom: 6rem ;
