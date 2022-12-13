@@ -196,11 +196,24 @@
     }
     .penjelasan{
         text-align:justify;
-        font-size: 0.9rem;
         margin-top: 1rem;
         margin-right: 0rem;
         margin-left: 0rem;
+        grid-template-columns: repeat(1, 1fr);
     }
+    .penjelasan_kiri{
+        font-size: 0.6rem;
+    }
+    .teknologi{
+        margin-bottom: 1rem;
+    }
+    .goto_repo{
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
     .artikel{
         display: grid;
         justify-content: center;
