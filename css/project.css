@@ -207,15 +207,27 @@
     .penjelasan_kanan{
         grid-template-columns: repeat(2, 1fr);
         font-size: 0.8rem;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
     .penjelasan_kiri{
-        font-size: 0.6rem;
-    }
+        background-color: #222222;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        font-size: 0.8rem;
+        -webkit-border-radius: 0.5rem;
+        -moz-border-radius: 0.5rem;
+        -ms-border-radius: 0.5rem;
+        -o-border-radius: 0.5rem;
+}
     .teknologi{
-        margin-bottom: 1rem;
+        margin-top: 0rem;
+        font-size: 1rem;
+        margin-right: 1rem;
     }
     .goto_repo{
+        background-color: #111;
+        color: aliceblue;
+        font-size: 1.3rem;
         border-radius: 0px;
         -webkit-border-radius: 0px;
         -moz-border-radius: 0px;
