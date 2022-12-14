@@ -226,6 +226,7 @@
         margin-right: 1rem;
     }
     .goto_repo{
+        padding: 0px;
         background-color: #111;
         color: aliceblue;
         font-size: 1.3rem;
