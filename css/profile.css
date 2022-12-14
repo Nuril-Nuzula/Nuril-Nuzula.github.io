@@ -235,4 +235,122 @@
         margin-left: 10px;
     }
 }
+@media screen and (max-width : 414px) {
+    .profile__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 200px;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        z-index: 99;
+    }
+    .nama{
+        font-family: 'bebas neue';
+        color: #d3d3d3;
+        font-size: 4rem;
+    }
+    .first{
+        letter-spacing:23px;
+    }
+    .mid{
+        margin-top: -0.5rem;
+        letter-spacing: 0.8rem;
+        font-size: 2rem;
+        font-family: 'montserrat';
+        color: #c7a663;
+    }
+    .last{
+        margin-top: 0;
+        letter-spacing: 21px;
+        font-size: 2rem;
+        font-family: 'montserrat';
+        color: #a18752;
+    }
+    .mee{
+        margin-top: -118px;
+        height: 205px;
+        width: 205px;
+    }
+    .desk__me{
+        font-family: 'montserrat';
+        margin-top: -10px;
+        font-size: 8px;
+        width: 205px;
+        height: fit-content;
+    }
+    .profile__left{
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .profile__right{
+        margin-top: -13rem;
+        margin-left: 1.7rem;
+        background-color: #222222;
+        height: 22rem;
+        width:205px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-content: flex-start;
+        border-radius: 10px;
+    }
+    .person_data{
+        color: #d3d3d3;
+        font-size: 10px;
+    }
+    .personal_header{
+        margin-top: -4rem;
+        font-size: 20px;
+        color: #d3d3d3;
+    }
+    .line{
+        background-color: #B7995D;
+        height: 3px;
+        width: 55px;
+    }
+    .skil_line{
+        background-color: #B7995D;
+        height: 3px;
+        width: 45px;
+    }
+    .skil__header{
+        margin-top: 0.5rem;
+        font-size: 20px;
+        color: #d3d3d3;
+    }
+    .skills{
+        font-size: 10px;
+        color: #d3d3d3;
+    }
+    .education{
+        font-size: 10px;
+        color: #d3d3d3;
+    }
+    .edu__header{
+        margin-top: 0.5rem;
+        font-size: 20px;
+    }
+    .an{
+        margin-left: 15rem;
+        letter-spacing:18px;
+        margin-top: 25rem;
+        margin-bottom: -55rem;
+        font-family: 'bebas neue';
+        color: #222222;
+        font-size: 6rem;
+    }
+    .droid{
+        letter-spacing:18px;
+        font-family: 'bebas neue';
+        color: #222222;
+        margin-top: 5rem;
+        margin-bottom: 15rem;
+        font-size: 6rem;
+        margin-left: 10px;
+    }
+}
 /* ---------- End Hal 2 ---------- */
