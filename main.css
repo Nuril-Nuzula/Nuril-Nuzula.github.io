@@ -132,6 +132,14 @@ nav{
     margin-left: 30px;
     letter-spacing: 15px;
 }
+.vert_port{
+    font-size: 12rem;
+    letter-spacing:65px;
+    margin-left: 30px;
+    display: none;
+    font-family: 'bebas neue';
+    color: #d3d3d3;
+}
 .port{
     margin-top: 12rem;
     font-size: 12rem;
@@ -139,6 +147,15 @@ nav{
     margin-left: 30px;
     font-family: 'bebas neue';
     color: #d3d3d3;
+}
+.vert_folio{
+    display: none;
+    font-size: 9rem;
+    margin-top: -2rem;
+    margin-left: 20px;
+    letter-spacing: 15px;
+    font-family: 'montserrat';
+    color: #B7995D;
 }
 .folio{
     font-size: 9rem;
@@ -211,7 +228,14 @@ nav{
     }
 }
 @media screen and (max-width : 414px) {
+    .vert_port{
+        display: block;
+        margin-top: 16rem;
+        font-size: 4rem;
+        width: min-content;
+    }
     .port{
+        display: none;
         margin-top: 25rem;
         font-size: 4rem;
         letter-spacing:35px;
@@ -219,7 +243,18 @@ nav{
         font-family: 'bebas neue';
         color: #d3d3d3;
     }
+    .vert_folio{
+        font-size: 3.5rem;
+        margin-left: 5rem;
+        letter-spacing: 15px;
+        width: min-content;
+        margin-top: -17rem;
+        font-family: 'montserrat';
+        color: #B7995D;
+        display: block;
+    }
     .folio{
+        display: none;
         font-size: 3rem;
         margin-top: -1rem;
         margin-left: 5px;
@@ -249,7 +284,7 @@ nav{
         color: #d3d3d3;
         display: flex;
         justify-content: flex-start;
-        margin-top:15rem;
+        margin-top:1rem;
         font-size: 10px;
         margin-left: 8px;
         margin-right: 2rem;
