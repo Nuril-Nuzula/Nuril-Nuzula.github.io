@@ -1,5 +1,5 @@
 @font-face {
-    font-family: bebas neue;
+    font-family: bebas_neue;
     src: url(BebasNeue-Regular.otf);
 
     font-family: montserrat;
@@ -137,7 +137,7 @@ nav{
     letter-spacing:65px;
     margin-left: 30px;
     display: none;
-    font-family: 'bebas neue';
+    font-family: 'bebas_neue';
     color: #d3d3d3;
 }
 .port{
@@ -145,7 +145,7 @@ nav{
     font-size: 12rem;
     letter-spacing:65px;
     margin-left: 30px;
-    font-family: 'bebas neue';
+    font-family: 'bebas_neue';
     color: #d3d3d3;
 }
 .vert_folio{
@@ -175,7 +175,7 @@ nav{
 }
 .ware{
     letter-spacing:18px;
-    font-family: 'bebas neue';
+    font-family: 'bebas_neue';
     color: #222222;
     text-align: end;
     font-size: 10rem;
@@ -186,7 +186,7 @@ nav{
         font-size: 4rem;
         letter-spacing:35px;
         margin-left: 30px;
-        font-family: 'bebas neue';
+        font-family: 'bebas_neue';
         color: #d3d3d3;
     }
     .folio{
@@ -211,7 +211,7 @@ nav{
         margin-left: 10px;
         margin-bottom: 12rem;
         letter-spacing:9px;
-        font-family: 'bebas neue';
+        font-family: 'bebas_neue';
         color: #222222;
         font-size: 2rem;
     }
@@ -240,7 +240,7 @@ nav{
         font-size: 4rem;
         letter-spacing:35px;
         margin-left: 8px;
-        font-family: 'bebas neue';
+        font-family: 'bebas_neue';
         color: #d3d3d3;
     }
     .vert_folio{
@@ -276,7 +276,7 @@ nav{
         margin-left: 5px;
         margin-bottom: 7.5rem;
         letter-spacing:9px;
-        font-family: 'bebas neue';
+        font-family: 'bebas_neue';
         color: #222222;
         font-size: 2rem;
     }
